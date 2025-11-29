@@ -9,3 +9,7 @@ A decomposição se manifesta claramente na criação e manutenção de branches
 Análise do git diff
 
 O comando git diff mostrou que a versão do branch desenvolvimento contém linhas adicionadas ao final do arquivo reflexao.txt, correspondentes à nova reflexão sobre decomposição. As diferenças aparecem com o símbolo +, indicando que novos parágrafos foram incluídos. Não houve remoções, apenas acréscimos. Isso demonstra claramente a evolução do conteúdo entre a versão original da main e a versão atual do branch.
+
+Resumo do histórico (git log)
+
+O git log mostra a ordem lógica das modificações realizadas no projeto. Primeiro, há o commit inicial contendo a reflexão sobre lógica dedutiva. Em seguida, aparece o commit feito no branch desenvolvimento, que adicionou a reflexão sobre decomposição e a análise do diff. A sequência demonstra claramente a evolução do arquivo e como cada commit representa um passo da construção do trabalho, preservando um histórico estruturado e dedutivo.
