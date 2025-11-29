@@ -1,0 +1,3 @@
+Reflexão sobre lógica dedutiva no uso do Git
+
+A lógica dedutiva aparece no uso cotidiano do Git porque cada comando depende de um estado anterior que leva a uma conclusão lógica. Por exemplo, para executar um commit, primeiro é necessário adicionar alterações ao stage; para enviar ao remoto, é preciso ter commitado; para realizar um merge, é necessário que os dois branches existam. Assim como na dedução lógica, cada ação no Git parte de premissas claras (arquivos alterados, branch atual, histórico existente) e leva a um resultado previsível. Esse funcionamento estruturado permite manter controle, rastreabilidade e coerência no desenvolvimento.
