@@ -1,3 +1,11 @@
 Reflexão sobre lógica dedutiva no uso do Git
 
 A lógica dedutiva aparece no uso cotidiano do Git porque cada comando depende de um estado anterior que leva a uma conclusão lógica. Por exemplo, para executar um commit, primeiro é necessário adicionar alterações ao stage; para enviar ao remoto, é preciso ter commitado; para realizar um merge, é necessário que os dois branches existam. Assim como na dedução lógica, cada ação no Git parte de premissas claras (arquivos alterados, branch atual, histórico existente) e leva a um resultado previsível. Esse funcionamento estruturado permite manter controle, rastreabilidade e coerência no desenvolvimento.
+
+Reflexão sobre decomposição e branches
+
+A decomposição se manifesta claramente na criação e manutenção de branches no Git. Cada branch representa uma divisão do problema em partes menores, permitindo desenvolver funcionalidades, correções ou testes de maneira isolada. Assim como na decomposição lógica, quebramos um todo complexo em unidades menores e gerenciáveis, organizando o trabalho de modo que cada parte possa evoluir sem interferir diretamente no restante do projeto. Depois, essas partes são integradas novamente por meio do merge.
+
+Análise do git diff
+
+O comando git diff mostrou que a versão do branch desenvolvimento contém linhas adicionadas ao final do arquivo reflexao.txt, correspondentes à nova reflexão sobre decomposição. As diferenças aparecem com o símbolo +, indicando que novos parágrafos foram incluídos. Não houve remoções, apenas acréscimos. Isso demonstra claramente a evolução do conteúdo entre a versão original da main e a versão atual do branch.
